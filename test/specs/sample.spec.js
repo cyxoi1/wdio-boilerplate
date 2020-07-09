@@ -12,6 +12,6 @@ describe('SAMPLE', () => {
     browser.pause(1000);
     expect(browser.getTitle()).includes('Google');
   });
-});//double
+});//doubl
 
 ////what next??
