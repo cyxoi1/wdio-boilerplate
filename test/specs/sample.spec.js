@@ -5,4 +5,13 @@ describe('SAMPLE', () => {
     expect(browser.getTitle()).includes('Google');
   });
 });
+
+describe('SAMPLE', () => {
+  it('sample', () => {
+    browser.url('/');
+    browser.pause(1000);
+    expect(browser.getTitle()).includes('Google');
+  });
+});//double
+
 ////what next??
